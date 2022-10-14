@@ -1,0 +1,31 @@
+
+.users_form{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #20d68a;
+    width: 50rem;
+    margin: 5rem auto;
+    border-radius: 12px;
+    gap: 2rem;
+    text-align: left;
+}
+
+
+  .new-users__control_input {
+    font: inherit;
+    padding: 0.3rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 15rem;
+    max-width: 100%;
+    
+  }
+
+  .users_label{
+    padding: 0.5rem;
+    font-weight: bold;
+    display: block; /* Ez miatt kerül az input fölé a label*/
+    color: #4b4b4b;
+    font-size: 1.2rem;
+  }
